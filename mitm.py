@@ -4,6 +4,11 @@ import time
 import os
 import sys
 
+try: 
+	interface = raw_input ( "[*] Enter Desired Interface: ")
+	victimIP = raw_input("[*] Enter victim IP: ")
+	gateIP = raw_input ("[*] Enter Router IP : ")
+
 def main():
 	print("Python MITM has booted.")
 
