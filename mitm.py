@@ -4,7 +4,7 @@ import argparse
 import time
 import os
 import sys
-
+#test commit
 def getMAC(ip): #returns MAC address of device connected to the network
 	result, _ = srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=ip), timeout=3, verbose=0)
 	if result:
